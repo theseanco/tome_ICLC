@@ -13,3 +13,11 @@ d[\dfm1] = {|in| DFM1.ar(in,1000,0.5);
 )
 
 d[\dfm1].play({SinOsc.ar})
+
+
+
+
+
+
+
+
