@@ -41,15 +41,17 @@ OSCdef(\y1, {|msg| }, \y1);
 OSCdef(\z1, {|msg| }, \z1);
 )
 
+(
 ///LIGHT
 OSCdef(\xL, {|msg| }, \x);
 OSCdef(\yL, {|msg| }, \y);
 OSCdef(\zL, {|msg| }, \z);
+)
 
 (
-OSCdef(\x1L, {|msg| b.sendMsg("/r/",189)}, \x1);
-OSCdef(\y1L, {|msg| b.sendMsg("/g/",97)}, \y1);
-OSCdef(\z1L, {|msg| b.sendMsg("/b/",99)}, \z1);
+OSCdef(\x1L, {|msg| b.sendMsg("/r/",190)}, \x1);
+OSCdef(\y1L, {|msg| b.sendMsg("/g/",20)}, \y1);
+OSCdef(\z1L, {|msg| b.sendMsg("/b/",10)}, \z1);
 )
 
 //ideas

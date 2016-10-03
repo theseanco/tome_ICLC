@@ -10,6 +10,9 @@
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0" Passthrough="True">
     <Input Plugin="OSC" Line="0" Profile="None"/>
+    <Output Plugin="DMX USB" Line="4294967295">
+     <PluginParameters UniverseChannels="22"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1" Passthrough="False"/>
    <Universe Name="Universe 3" ID="2" Passthrough="False"/>
@@ -102,7 +105,7 @@
     </Appearance>
     <Input Universe="0" Channel="33435"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="117">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">1</Channel>
     </Level>
     <Playback>
@@ -120,7 +123,7 @@
     </Appearance>
     <Input Universe="0" Channel="19913"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="188">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">0</Channel>
     </Level>
     <Playback>
@@ -138,7 +141,7 @@
     </Appearance>
     <Input Universe="0" Channel="16051"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="117">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">2</Channel>
     </Level>
     <Playback>
@@ -156,7 +159,7 @@
     </Appearance>
     <Input Universe="0" Channel="1806"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="141">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">3</Channel>
     </Level>
     <Playback>
@@ -192,7 +195,7 @@
     </Appearance>
     <Input Universe="0" Channel="26529"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="201">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="1">0</Channel>
     </Level>
     <Playback>
@@ -210,7 +213,7 @@
     </Appearance>
     <Input Universe="0" Channel="43251"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="236">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="1">1</Channel>
     </Level>
     <Playback>
@@ -228,7 +231,7 @@
     </Appearance>
     <Input Universe="0" Channel="5339"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="140">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="1">2</Channel>
     </Level>
     <Playback>
@@ -246,7 +249,7 @@
     </Appearance>
     <Input Universe="0" Channel="11622"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="152">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="1">3</Channel>
     </Level>
     <Playback>
@@ -282,7 +285,7 @@
     </Appearance>
     <Input Universe="0" Channel="32377"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="35">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">0</Channel>
     </Level>
     <Playback>
@@ -300,7 +303,7 @@
     </Appearance>
     <Input Universe="0" Channel="45355"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="237">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">1</Channel>
     </Level>
     <Playback>
@@ -318,7 +321,7 @@
     </Appearance>
     <Input Universe="0" Channel="3331"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="243">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">2</Channel>
     </Level>
     <Playback>
@@ -336,7 +339,7 @@
     </Appearance>
     <Input Universe="0" Channel="13502"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="174">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="2">3</Channel>
     </Level>
     <Playback>
@@ -372,7 +375,7 @@
     </Appearance>
     <Input Universe="0" Channel="13169"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="185">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="3">0</Channel>
     </Level>
     <Playback>
@@ -390,7 +393,7 @@
     </Appearance>
     <Input Universe="0" Channel="64547"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="241">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="3">1</Channel>
     </Level>
     <Playback>
@@ -408,7 +411,7 @@
     </Appearance>
     <Input Universe="0" Channel="16395"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="27">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="3">2</Channel>
     </Level>
     <Playback>
@@ -426,7 +429,7 @@
     </Appearance>
     <Input Universe="0" Channel="31158"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="117">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="3">3</Channel>
     </Level>
     <Playback>
@@ -518,29 +521,8 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="All Masters" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="All Red" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="10" Y="10" Width="100" Height="400"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="33768"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="1">
-      <Channel Fixture="0">0</Channel>
-      <Channel Fixture="1">0</Channel>
-      <Channel Fixture="2">0</Channel>
-      <Channel Fixture="3">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="All Reds" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="110" Y="10" Width="100" Height="400"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -550,18 +532,18 @@
      </Appearance>
      <Input Universe="0" Channel="38321"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="157">
-      <Channel Fixture="0">1</Channel>
-      <Channel Fixture="1">1</Channel>
-      <Channel Fixture="2">1</Channel>
-      <Channel Fixture="3">1</Channel>
+     <Level LowLimit="0" HighLimit="255" Value="28">
+      <Channel Fixture="0">0</Channel>
+      <Channel Fixture="1">0</Channel>
+      <Channel Fixture="2">0</Channel>
+      <Channel Fixture="3">0</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="All Greens" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="205" Y="10" Width="100" Height="400"/>
+    <Slider Caption="All Greens" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="110" Y="10" Width="100" Height="400"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -571,18 +553,18 @@
      </Appearance>
      <Input Universe="0" Channel="32408"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="86">
-      <Channel Fixture="0">2</Channel>
-      <Channel Fixture="1">3</Channel>
-      <Channel Fixture="2">2</Channel>
-      <Channel Fixture="3">2</Channel>
+     <Level LowLimit="0" HighLimit="255" Value="28">
+      <Channel Fixture="0">1</Channel>
+      <Channel Fixture="1">1</Channel>
+      <Channel Fixture="2">1</Channel>
+      <Channel Fixture="3">1</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="All Blues" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="310" Y="10" Width="100" Height="400"/>
+    <Slider Caption="All Blues" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="205" Y="10" Width="100" Height="400"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -592,7 +574,28 @@
      </Appearance>
      <Input Universe="0" Channel="32"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="47">
+     <Level LowLimit="0" HighLimit="255" Value="223">
+      <Channel Fixture="0">2</Channel>
+      <Channel Fixture="1">2</Channel>
+      <Channel Fixture="2">2</Channel>
+      <Channel Fixture="3">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="All Master" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="310" Y="10" Width="100" Height="400"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="33768"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="0">3</Channel>
       <Channel Fixture="1">3</Channel>
       <Channel Fixture="2">3</Channel>

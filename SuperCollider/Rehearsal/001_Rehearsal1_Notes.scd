@@ -55,4 +55,5 @@ OSCdef(\m1L, {|msg| b.sendMsg("/m/",d[\linear].(msg[1],255,255).asInt)}, \x1);
 
 //for the sound and the lights to be intrinsic to one another make a massive amount of sense - it's a really nice conversational echo of your sonic explorations
 //The performance is not long enough to have a 'random' discovery by Charlie - the libraries developed need to be discussed with Charlie beforehand and improvised with in order to make sense as a performance.
-//build moments during the use of the sine wave instrument - restart from 
+//build moments during the use of the sine wave instrument - restart from the ground up
+//fade in the sine wave instrument into Eli Fieldsteels bpfsaw? - Then use that to build up into an Algorave-type setup?
