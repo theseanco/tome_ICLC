@@ -21,7 +21,7 @@ oscmsg = OSC.OSCMessage()
 # ser = serial.Serial(port, baudrate)
 
 # for testing
-ser = serial.Serial('/dev/ttyUSB0', 115200)
+ser = serial.Serial('/dev/ttyACM0', 115200)
 
 # regex string formatting pattern to check if serial has read correctly
 pattern = re.compile("^msg=")
