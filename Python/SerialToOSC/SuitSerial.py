@@ -74,3 +74,8 @@ while True:
     oscmsg.setAddress("/z1")
     oscmsg.append(int(result[6])+16000)
     c.send(oscmsg)
+
+    oscmsg = OSC.OSCMessage()
+    oscmsg.setAddress("/gsr")
+    oscmsg.append(int(result[7]))
+    c.send(oscmsg)
