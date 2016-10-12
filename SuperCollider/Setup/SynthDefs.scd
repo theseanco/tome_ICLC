@@ -200,10 +200,10 @@ SynthDef(\bpfbuf, {
 
 (
 SynthDef(\sinfb, {
-	arg freq = 440, atk = 0.01, sus = 0, rel = 1, fb = 0, amp = 0.3, out = 0, pan=0;
+	arg freq = 440, atk = 0.01, sus = 0, rel = 1, fb = 0, amp = 0.3, out = 0, pan=0, lpf = 15000;
 	var sig, env;
 	env = EnvGen.ar(Env.linen(atk,sus,rel),1,1,0,1,2);
-	sig = SinOscFB.ar(freq,fb,1);
+	sig = RLPF.ar(SinOscFB.ar(freq,fb,1),lpf.abs,0.4);
 	sig = sig*env;
 	Out.ar(out,Pan2.ar(sig,pan,amp));
 }).add;

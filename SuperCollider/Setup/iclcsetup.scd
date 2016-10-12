@@ -23,13 +23,13 @@ Task({
 	StageLimiter.activate;
 	1.wait;
 	//linear transfer function
-	d[\linear] = { |in, max = 1, min = 10|
+	d[\l] = { |in, max = 1, min = 10|
 		var result = in.linlin(0,32627,min,max);
 		result;
 	};
 
 	//exponential transfer function
-	d[\exponential] = { |in, max = 1, min = 10|
+	d[\e] = { |in, max = 1, min = 10|
 		var result = (in+1).explin(1,32628,min,max);
 		result;
 	};
@@ -53,6 +53,18 @@ Task({
 		var result = (in-16313.5).abs;
 		result = result.linlin(0,16314,min,max);
 	};
+	d[\redmin] = 0;
+	d[\redmax] = 0;
+	d[\greenmin] = 0;
+	d[\greenmax] = 0;
+	d[\bluemin] = 0;
+	d[\bluemax] = 0;
+	d[\mastermin] = 255;
+	d[\mastermax] = 255;
+	d[\redindex] = \x;
+	d[\greenindex] = \y;
+	d[\blueindex] = \z;
+	d[\masterindex] = \x;
 	"Setup done!".postln;
 }).start;
 )

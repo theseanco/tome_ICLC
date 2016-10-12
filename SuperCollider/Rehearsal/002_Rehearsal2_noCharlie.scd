@@ -10,7 +10,7 @@
 
 //build beats
 
-//start building rhythmic elements around a fundamental frequency and then assign that fundamental to Charlie, then have him go to town on it
+//start building rhythmic elements around a fundamental frequency and then assignn that fundamental to Charlie, then have him go to town on it
 
 //keeping the sine wave underneath everything means the chaos is *kinda* stabilised.
 
